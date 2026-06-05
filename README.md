@@ -4,7 +4,7 @@
 
 A minimal, modern status bar for [Hyprland](https://hypr.land), written in C++.
 
-![hyprbar.png](hyprbar.png)
+<img src="hyprbar.png" width="100%">
 
 ## Features
 
