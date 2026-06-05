@@ -11,7 +11,7 @@ public:
         time_t t = time(nullptr);
         struct tm* tm = localtime(&t);
         char buf[64];
-        strftime(buf, sizeof(buf), "%a %d %b  %H:%M", tm);
+        strftime(buf, sizeof(buf), "%H:%M", tm);
         m_text = buf;
     }
 
