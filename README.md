@@ -1,3 +1,5 @@
+#### MADE BY CLAUDE BTW
+
 # hyprbar
 
 A minimal, modern status bar for [Hyprland](https://hyprland.org), written in C++.
