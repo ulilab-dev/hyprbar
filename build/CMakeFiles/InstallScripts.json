@@ -1,7 +1,7 @@
 {
 	"InstallScripts" : 
 	[
-		"/home/ez/Downloads/hyprbar/build/cmake_install.cmake"
+		"/home/ez/hyprbar/build/cmake_install.cmake"
 	],
 	"Parallel" : false
 }

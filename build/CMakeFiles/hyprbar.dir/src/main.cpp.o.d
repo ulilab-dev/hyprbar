@@ -1,7 +1,6 @@
-CMakeFiles/hyprbar.dir/src/main.cpp.o: \
- /home/ez/Downloads/hyprbar/src/main.cpp /usr/include/stdc-predef.h \
- /home/ez/Downloads/hyprbar/src/Bar.hpp /usr/include/wayland-client.h \
- /usr/include/wayland-client-core.h \
+CMakeFiles/hyprbar.dir/src/main.cpp.o: /home/ez/hyprbar/src/main.cpp \
+ /usr/include/stdc-predef.h /home/ez/hyprbar/src/Bar.hpp \
+ /usr/include/wayland-client.h /usr/include/wayland-client-core.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
@@ -87,7 +86,7 @@ CMakeFiles/hyprbar.dir/src/main.cpp.o: \
  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdarg.h \
  /usr/include/wayland-version.h /usr/include/wayland-client-protocol.h \
  /usr/include/wayland-client.h \
- /home/ez/Downloads/hyprbar/build/proto_gen/wlr-layer-shell-unstable-v1-client-protocol.h \
+ /home/ez/hyprbar/build/proto_gen/wlr-layer-shell-unstable-v1-client-protocol.h \
  /usr/include/cairo/cairo.h /usr/include/cairo/cairo-version.h \
  /usr/include/cairo/cairo-features.h \
  /usr/include/cairo/cairo-deprecated.h /usr/include/c++/16.1.1/memory \
@@ -216,8 +215,7 @@ CMakeFiles/hyprbar.dir/src/main.cpp.o: \
  /usr/include/c++/16.1.1/vector /usr/include/c++/16.1.1/bits/stl_vector.h \
  /usr/include/c++/16.1.1/bits/stl_bvector.h \
  /usr/include/c++/16.1.1/bits/vector.tcc /usr/include/c++/16.1.1/array \
- /usr/include/c++/16.1.1/bits/binders.h \
- /home/ez/Downloads/hyprbar/src/HyprIPC.hpp \
+ /usr/include/c++/16.1.1/bits/binders.h /home/ez/hyprbar/src/HyprIPC.hpp \
  /usr/include/c++/16.1.1/thread /usr/include/c++/16.1.1/stop_token \
  /usr/include/c++/16.1.1/bits/std_thread.h \
  /usr/include/c++/16.1.1/semaphore \
@@ -229,9 +227,9 @@ CMakeFiles/hyprbar.dir/src/main.cpp.o: \
  /usr/include/c++/16.1.1/bits/this_thread_sleep.h /usr/include/sys/time.h \
  /usr/include/c++/16.1.1/mutex /usr/include/c++/16.1.1/bits/std_mutex.h \
  /usr/include/c++/16.1.1/bits/unique_lock.h \
- /home/ez/Downloads/hyprbar/src/modules/Workspaces.hpp \
- /home/ez/Downloads/hyprbar/src/modules/Module.hpp \
- /home/ez/Downloads/hyprbar/src/modules/WindowTitle.hpp \
+ /home/ez/hyprbar/src/modules/Workspaces.hpp \
+ /home/ez/hyprbar/src/modules/Module.hpp \
+ /home/ez/hyprbar/src/modules/WindowTitle.hpp \
  /usr/include/c++/16.1.1/algorithm \
  /usr/include/c++/16.1.1/bits/stl_algo.h \
  /usr/include/c++/16.1.1/bits/algorithmfwd.h \
@@ -239,10 +237,9 @@ CMakeFiles/hyprbar.dir/src/main.cpp.o: \
  /usr/include/c++/16.1.1/bits/uniform_int_dist.h \
  /usr/include/c++/16.1.1/bits/ranges_algo.h \
  /usr/include/c++/16.1.1/pstl/glue_algorithm_defs.h \
- /home/ez/Downloads/hyprbar/src/modules/Clock.hpp \
- /home/ez/Downloads/hyprbar/src/modules/SysInfo.hpp \
- /usr/include/c++/16.1.1/fstream /usr/include/c++/16.1.1/istream \
- /usr/include/c++/16.1.1/ostream \
+ /home/ez/hyprbar/src/modules/Clock.hpp \
+ /home/ez/hyprbar/src/modules/SysInfo.hpp /usr/include/c++/16.1.1/fstream \
+ /usr/include/c++/16.1.1/istream /usr/include/c++/16.1.1/ostream \
  /usr/include/c++/16.1.1/bits/ostream_print.h \
  /usr/include/c++/16.1.1/bits/ostream.tcc \
  /usr/include/c++/16.1.1/bits/istream.tcc \

@@ -1,10 +1,8 @@
 CMakeFiles/hyprbar.dir/src/modules/Workspaces.cpp.o: \
- /home/ez/Downloads/hyprbar/src/modules/Workspaces.cpp \
- /usr/include/stdc-predef.h \
- /home/ez/Downloads/hyprbar/src/modules/Workspaces.hpp \
- /home/ez/Downloads/hyprbar/src/modules/Module.hpp \
- /usr/include/cairo/cairo.h /usr/include/cairo/cairo-version.h \
- /usr/include/cairo/cairo-features.h \
+ /home/ez/hyprbar/src/modules/Workspaces.cpp /usr/include/stdc-predef.h \
+ /home/ez/hyprbar/src/modules/Workspaces.hpp \
+ /home/ez/hyprbar/src/modules/Module.hpp /usr/include/cairo/cairo.h \
+ /usr/include/cairo/cairo-version.h /usr/include/cairo/cairo-features.h \
  /usr/include/cairo/cairo-deprecated.h /usr/include/c++/16.1.1/string \
  /usr/include/c++/16.1.1/bits/requires_hosted.h \
  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
@@ -117,7 +115,7 @@ CMakeFiles/hyprbar.dir/src/modules/Workspaces.cpp.o: \
  /usr/include/c++/16.1.1/bits/uses_allocator_args.h \
  /usr/include/c++/16.1.1/tuple /usr/include/c++/16.1.1/bits/invoke.h \
  /usr/include/c++/16.1.1/bits/ranges_util.h \
- /home/ez/Downloads/hyprbar/src/modules/../HyprIPC.hpp \
+ /home/ez/hyprbar/src/modules/../HyprIPC.hpp \
  /usr/include/c++/16.1.1/vector \
  /usr/include/c++/16.1.1/bits/stl_uninitialized.h \
  /usr/include/c++/16.1.1/bits/stl_vector.h \

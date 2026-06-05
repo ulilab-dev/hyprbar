@@ -5,13 +5,13 @@
 # compile CXX with /usr/bin/c++
 C_DEFINES = 
 
-C_INCLUDES = -I/home/ez/Downloads/hyprbar/src -I/home/ez/Downloads/hyprbar/build/proto_gen -isystem /usr/include/cairo -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1
+C_INCLUDES = -I/home/ez/hyprbar/src -I/home/ez/hyprbar/build/proto_gen -isystem /usr/include/cairo -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1
 
 C_FLAGS = -O3 -DNDEBUG -Wall -Wextra -O2 -pipe
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/ez/Downloads/hyprbar/src -I/home/ez/Downloads/hyprbar/build/proto_gen -isystem /usr/include/cairo -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1
+CXX_INCLUDES = -I/home/ez/hyprbar/src -I/home/ez/hyprbar/build/proto_gen -isystem /usr/include/cairo -isystem /usr/include/freetype2 -isystem /usr/include/libpng16 -isystem /usr/include/pixman-1
 
 CXX_FLAGS = -O3 -DNDEBUG -std=gnu++20 -Wall -Wextra -O2 -pipe
 

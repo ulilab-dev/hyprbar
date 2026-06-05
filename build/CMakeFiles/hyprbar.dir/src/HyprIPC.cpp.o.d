@@ -1,7 +1,6 @@
 CMakeFiles/hyprbar.dir/src/HyprIPC.cpp.o: \
- /home/ez/Downloads/hyprbar/src/HyprIPC.cpp /usr/include/stdc-predef.h \
- /home/ez/Downloads/hyprbar/src/HyprIPC.hpp \
- /usr/include/c++/16.1.1/string \
+ /home/ez/hyprbar/src/HyprIPC.cpp /usr/include/stdc-predef.h \
+ /home/ez/hyprbar/src/HyprIPC.hpp /usr/include/c++/16.1.1/string \
  /usr/include/c++/16.1.1/bits/requires_hosted.h \
  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/c++config.h \
  /usr/include/c++/16.1.1/x86_64-pc-linux-gnu/bits/os_defines.h \

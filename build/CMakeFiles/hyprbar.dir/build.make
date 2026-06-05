@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/ez/Downloads/hyprbar
+CMAKE_SOURCE_DIR = /home/ez/hyprbar
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/ez/Downloads/hyprbar/build
+CMAKE_BINARY_DIR = /home/ez/hyprbar/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/hyprbar.dir/depend.make
@@ -69,100 +69,100 @@ include CMakeFiles/hyprbar.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/hyprbar.dir/flags.make
 
-proto_gen/wlr-layer-shell-unstable-v1-client-protocol.h: /home/ez/Downloads/hyprbar/protocols/wlr-layer-shell-unstable-v1.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ez/Downloads/hyprbar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "wayland-scanner client-header wlr-layer-shell-unstable-v1"
-	/usr/bin/wayland-scanner client-header /home/ez/Downloads/hyprbar/protocols/wlr-layer-shell-unstable-v1.xml /home/ez/Downloads/hyprbar/build/proto_gen/wlr-layer-shell-unstable-v1-client-protocol.h
+proto_gen/wlr-layer-shell-unstable-v1-client-protocol.h: /home/ez/hyprbar/protocols/wlr-layer-shell-unstable-v1.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ez/hyprbar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "wayland-scanner client-header wlr-layer-shell-unstable-v1"
+	/usr/bin/wayland-scanner client-header /home/ez/hyprbar/protocols/wlr-layer-shell-unstable-v1.xml /home/ez/hyprbar/build/proto_gen/wlr-layer-shell-unstable-v1-client-protocol.h
 
-proto_gen/wlr-layer-shell-unstable-v1-protocol.c: /home/ez/Downloads/hyprbar/protocols/wlr-layer-shell-unstable-v1.xml
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ez/Downloads/hyprbar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "wayland-scanner private-code wlr-layer-shell-unstable-v1"
-	/usr/bin/wayland-scanner private-code /home/ez/Downloads/hyprbar/protocols/wlr-layer-shell-unstable-v1.xml /home/ez/Downloads/hyprbar/build/proto_gen/wlr-layer-shell-unstable-v1-protocol.c
+proto_gen/wlr-layer-shell-unstable-v1-protocol.c: /home/ez/hyprbar/protocols/wlr-layer-shell-unstable-v1.xml
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/ez/hyprbar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "wayland-scanner private-code wlr-layer-shell-unstable-v1"
+	/usr/bin/wayland-scanner private-code /home/ez/hyprbar/protocols/wlr-layer-shell-unstable-v1.xml /home/ez/hyprbar/build/proto_gen/wlr-layer-shell-unstable-v1-protocol.c
 
 CMakeFiles/hyprbar.dir/codegen:
 .PHONY : CMakeFiles/hyprbar.dir/codegen
 
 CMakeFiles/hyprbar.dir/src/main.cpp.o: CMakeFiles/hyprbar.dir/flags.make
-CMakeFiles/hyprbar.dir/src/main.cpp.o: /home/ez/Downloads/hyprbar/src/main.cpp
+CMakeFiles/hyprbar.dir/src/main.cpp.o: /home/ez/hyprbar/src/main.cpp
 CMakeFiles/hyprbar.dir/src/main.cpp.o: CMakeFiles/hyprbar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ez/Downloads/hyprbar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hyprbar.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hyprbar.dir/src/main.cpp.o -MF CMakeFiles/hyprbar.dir/src/main.cpp.o.d -o CMakeFiles/hyprbar.dir/src/main.cpp.o -c /home/ez/Downloads/hyprbar/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ez/hyprbar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hyprbar.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hyprbar.dir/src/main.cpp.o -MF CMakeFiles/hyprbar.dir/src/main.cpp.o.d -o CMakeFiles/hyprbar.dir/src/main.cpp.o -c /home/ez/hyprbar/src/main.cpp
 
 CMakeFiles/hyprbar.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hyprbar.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ez/Downloads/hyprbar/src/main.cpp > CMakeFiles/hyprbar.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ez/hyprbar/src/main.cpp > CMakeFiles/hyprbar.dir/src/main.cpp.i
 
 CMakeFiles/hyprbar.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hyprbar.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ez/Downloads/hyprbar/src/main.cpp -o CMakeFiles/hyprbar.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ez/hyprbar/src/main.cpp -o CMakeFiles/hyprbar.dir/src/main.cpp.s
 
 CMakeFiles/hyprbar.dir/src/Bar.cpp.o: CMakeFiles/hyprbar.dir/flags.make
-CMakeFiles/hyprbar.dir/src/Bar.cpp.o: /home/ez/Downloads/hyprbar/src/Bar.cpp
+CMakeFiles/hyprbar.dir/src/Bar.cpp.o: /home/ez/hyprbar/src/Bar.cpp
 CMakeFiles/hyprbar.dir/src/Bar.cpp.o: CMakeFiles/hyprbar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ez/Downloads/hyprbar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hyprbar.dir/src/Bar.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hyprbar.dir/src/Bar.cpp.o -MF CMakeFiles/hyprbar.dir/src/Bar.cpp.o.d -o CMakeFiles/hyprbar.dir/src/Bar.cpp.o -c /home/ez/Downloads/hyprbar/src/Bar.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ez/hyprbar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hyprbar.dir/src/Bar.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hyprbar.dir/src/Bar.cpp.o -MF CMakeFiles/hyprbar.dir/src/Bar.cpp.o.d -o CMakeFiles/hyprbar.dir/src/Bar.cpp.o -c /home/ez/hyprbar/src/Bar.cpp
 
 CMakeFiles/hyprbar.dir/src/Bar.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hyprbar.dir/src/Bar.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ez/Downloads/hyprbar/src/Bar.cpp > CMakeFiles/hyprbar.dir/src/Bar.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ez/hyprbar/src/Bar.cpp > CMakeFiles/hyprbar.dir/src/Bar.cpp.i
 
 CMakeFiles/hyprbar.dir/src/Bar.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hyprbar.dir/src/Bar.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ez/Downloads/hyprbar/src/Bar.cpp -o CMakeFiles/hyprbar.dir/src/Bar.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ez/hyprbar/src/Bar.cpp -o CMakeFiles/hyprbar.dir/src/Bar.cpp.s
 
 CMakeFiles/hyprbar.dir/src/HyprIPC.cpp.o: CMakeFiles/hyprbar.dir/flags.make
-CMakeFiles/hyprbar.dir/src/HyprIPC.cpp.o: /home/ez/Downloads/hyprbar/src/HyprIPC.cpp
+CMakeFiles/hyprbar.dir/src/HyprIPC.cpp.o: /home/ez/hyprbar/src/HyprIPC.cpp
 CMakeFiles/hyprbar.dir/src/HyprIPC.cpp.o: CMakeFiles/hyprbar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ez/Downloads/hyprbar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/hyprbar.dir/src/HyprIPC.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hyprbar.dir/src/HyprIPC.cpp.o -MF CMakeFiles/hyprbar.dir/src/HyprIPC.cpp.o.d -o CMakeFiles/hyprbar.dir/src/HyprIPC.cpp.o -c /home/ez/Downloads/hyprbar/src/HyprIPC.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ez/hyprbar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/hyprbar.dir/src/HyprIPC.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hyprbar.dir/src/HyprIPC.cpp.o -MF CMakeFiles/hyprbar.dir/src/HyprIPC.cpp.o.d -o CMakeFiles/hyprbar.dir/src/HyprIPC.cpp.o -c /home/ez/hyprbar/src/HyprIPC.cpp
 
 CMakeFiles/hyprbar.dir/src/HyprIPC.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hyprbar.dir/src/HyprIPC.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ez/Downloads/hyprbar/src/HyprIPC.cpp > CMakeFiles/hyprbar.dir/src/HyprIPC.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ez/hyprbar/src/HyprIPC.cpp > CMakeFiles/hyprbar.dir/src/HyprIPC.cpp.i
 
 CMakeFiles/hyprbar.dir/src/HyprIPC.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hyprbar.dir/src/HyprIPC.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ez/Downloads/hyprbar/src/HyprIPC.cpp -o CMakeFiles/hyprbar.dir/src/HyprIPC.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ez/hyprbar/src/HyprIPC.cpp -o CMakeFiles/hyprbar.dir/src/HyprIPC.cpp.s
 
 CMakeFiles/hyprbar.dir/src/modules/Workspaces.cpp.o: CMakeFiles/hyprbar.dir/flags.make
-CMakeFiles/hyprbar.dir/src/modules/Workspaces.cpp.o: /home/ez/Downloads/hyprbar/src/modules/Workspaces.cpp
+CMakeFiles/hyprbar.dir/src/modules/Workspaces.cpp.o: /home/ez/hyprbar/src/modules/Workspaces.cpp
 CMakeFiles/hyprbar.dir/src/modules/Workspaces.cpp.o: CMakeFiles/hyprbar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ez/Downloads/hyprbar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/hyprbar.dir/src/modules/Workspaces.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hyprbar.dir/src/modules/Workspaces.cpp.o -MF CMakeFiles/hyprbar.dir/src/modules/Workspaces.cpp.o.d -o CMakeFiles/hyprbar.dir/src/modules/Workspaces.cpp.o -c /home/ez/Downloads/hyprbar/src/modules/Workspaces.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ez/hyprbar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/hyprbar.dir/src/modules/Workspaces.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hyprbar.dir/src/modules/Workspaces.cpp.o -MF CMakeFiles/hyprbar.dir/src/modules/Workspaces.cpp.o.d -o CMakeFiles/hyprbar.dir/src/modules/Workspaces.cpp.o -c /home/ez/hyprbar/src/modules/Workspaces.cpp
 
 CMakeFiles/hyprbar.dir/src/modules/Workspaces.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hyprbar.dir/src/modules/Workspaces.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ez/Downloads/hyprbar/src/modules/Workspaces.cpp > CMakeFiles/hyprbar.dir/src/modules/Workspaces.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ez/hyprbar/src/modules/Workspaces.cpp > CMakeFiles/hyprbar.dir/src/modules/Workspaces.cpp.i
 
 CMakeFiles/hyprbar.dir/src/modules/Workspaces.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hyprbar.dir/src/modules/Workspaces.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ez/Downloads/hyprbar/src/modules/Workspaces.cpp -o CMakeFiles/hyprbar.dir/src/modules/Workspaces.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ez/hyprbar/src/modules/Workspaces.cpp -o CMakeFiles/hyprbar.dir/src/modules/Workspaces.cpp.s
 
 CMakeFiles/hyprbar.dir/src/xdg_stub.c.o: CMakeFiles/hyprbar.dir/flags.make
-CMakeFiles/hyprbar.dir/src/xdg_stub.c.o: /home/ez/Downloads/hyprbar/src/xdg_stub.c
+CMakeFiles/hyprbar.dir/src/xdg_stub.c.o: /home/ez/hyprbar/src/xdg_stub.c
 CMakeFiles/hyprbar.dir/src/xdg_stub.c.o: CMakeFiles/hyprbar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ez/Downloads/hyprbar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/hyprbar.dir/src/xdg_stub.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hyprbar.dir/src/xdg_stub.c.o -MF CMakeFiles/hyprbar.dir/src/xdg_stub.c.o.d -o CMakeFiles/hyprbar.dir/src/xdg_stub.c.o -c /home/ez/Downloads/hyprbar/src/xdg_stub.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ez/hyprbar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/hyprbar.dir/src/xdg_stub.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hyprbar.dir/src/xdg_stub.c.o -MF CMakeFiles/hyprbar.dir/src/xdg_stub.c.o.d -o CMakeFiles/hyprbar.dir/src/xdg_stub.c.o -c /home/ez/hyprbar/src/xdg_stub.c
 
 CMakeFiles/hyprbar.dir/src/xdg_stub.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/hyprbar.dir/src/xdg_stub.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ez/Downloads/hyprbar/src/xdg_stub.c > CMakeFiles/hyprbar.dir/src/xdg_stub.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ez/hyprbar/src/xdg_stub.c > CMakeFiles/hyprbar.dir/src/xdg_stub.c.i
 
 CMakeFiles/hyprbar.dir/src/xdg_stub.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/hyprbar.dir/src/xdg_stub.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ez/Downloads/hyprbar/src/xdg_stub.c -o CMakeFiles/hyprbar.dir/src/xdg_stub.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ez/hyprbar/src/xdg_stub.c -o CMakeFiles/hyprbar.dir/src/xdg_stub.c.s
 
 CMakeFiles/hyprbar.dir/proto_gen/wlr-layer-shell-unstable-v1-protocol.c.o: CMakeFiles/hyprbar.dir/flags.make
 CMakeFiles/hyprbar.dir/proto_gen/wlr-layer-shell-unstable-v1-protocol.c.o: proto_gen/wlr-layer-shell-unstable-v1-protocol.c
 CMakeFiles/hyprbar.dir/proto_gen/wlr-layer-shell-unstable-v1-protocol.c.o: CMakeFiles/hyprbar.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ez/Downloads/hyprbar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/hyprbar.dir/proto_gen/wlr-layer-shell-unstable-v1-protocol.c.o"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hyprbar.dir/proto_gen/wlr-layer-shell-unstable-v1-protocol.c.o -MF CMakeFiles/hyprbar.dir/proto_gen/wlr-layer-shell-unstable-v1-protocol.c.o.d -o CMakeFiles/hyprbar.dir/proto_gen/wlr-layer-shell-unstable-v1-protocol.c.o -c /home/ez/Downloads/hyprbar/build/proto_gen/wlr-layer-shell-unstable-v1-protocol.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/home/ez/hyprbar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/hyprbar.dir/proto_gen/wlr-layer-shell-unstable-v1-protocol.c.o"
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hyprbar.dir/proto_gen/wlr-layer-shell-unstable-v1-protocol.c.o -MF CMakeFiles/hyprbar.dir/proto_gen/wlr-layer-shell-unstable-v1-protocol.c.o.d -o CMakeFiles/hyprbar.dir/proto_gen/wlr-layer-shell-unstable-v1-protocol.c.o -c /home/ez/hyprbar/build/proto_gen/wlr-layer-shell-unstable-v1-protocol.c
 
 CMakeFiles/hyprbar.dir/proto_gen/wlr-layer-shell-unstable-v1-protocol.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/hyprbar.dir/proto_gen/wlr-layer-shell-unstable-v1-protocol.c.i"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ez/Downloads/hyprbar/build/proto_gen/wlr-layer-shell-unstable-v1-protocol.c > CMakeFiles/hyprbar.dir/proto_gen/wlr-layer-shell-unstable-v1-protocol.c.i
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/ez/hyprbar/build/proto_gen/wlr-layer-shell-unstable-v1-protocol.c > CMakeFiles/hyprbar.dir/proto_gen/wlr-layer-shell-unstable-v1-protocol.c.i
 
 CMakeFiles/hyprbar.dir/proto_gen/wlr-layer-shell-unstable-v1-protocol.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/hyprbar.dir/proto_gen/wlr-layer-shell-unstable-v1-protocol.c.s"
-	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ez/Downloads/hyprbar/build/proto_gen/wlr-layer-shell-unstable-v1-protocol.c -o CMakeFiles/hyprbar.dir/proto_gen/wlr-layer-shell-unstable-v1-protocol.c.s
+	/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/ez/hyprbar/build/proto_gen/wlr-layer-shell-unstable-v1-protocol.c -o CMakeFiles/hyprbar.dir/proto_gen/wlr-layer-shell-unstable-v1-protocol.c.s
 
 # Object files for target hyprbar
 hyprbar_OBJECTS = \
@@ -188,7 +188,7 @@ hyprbar: /usr/lib/libwayland-client.so
 hyprbar: /usr/lib/libm.so
 hyprbar: /usr/lib/libcairo.so
 hyprbar: CMakeFiles/hyprbar.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ez/Downloads/hyprbar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable hyprbar"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/home/ez/hyprbar/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable hyprbar"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hyprbar.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -201,6 +201,6 @@ CMakeFiles/hyprbar.dir/clean:
 
 CMakeFiles/hyprbar.dir/depend: proto_gen/wlr-layer-shell-unstable-v1-client-protocol.h
 CMakeFiles/hyprbar.dir/depend: proto_gen/wlr-layer-shell-unstable-v1-protocol.c
-	cd /home/ez/Downloads/hyprbar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ez/Downloads/hyprbar /home/ez/Downloads/hyprbar /home/ez/Downloads/hyprbar/build /home/ez/Downloads/hyprbar/build /home/ez/Downloads/hyprbar/build/CMakeFiles/hyprbar.dir/DependInfo.cmake "--color=$(COLOR)" hyprbar
+	cd /home/ez/hyprbar/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ez/hyprbar /home/ez/hyprbar /home/ez/hyprbar/build /home/ez/hyprbar/build /home/ez/hyprbar/build/CMakeFiles/hyprbar.dir/DependInfo.cmake "--color=$(COLOR)" hyprbar
 .PHONY : CMakeFiles/hyprbar.dir/depend
 

@@ -1,5 +1,5 @@
 CMakeFiles/hyprbar.dir/proto_gen/wlr-layer-shell-unstable-v1-protocol.c.o: \
- /home/ez/Downloads/hyprbar/build/proto_gen/wlr-layer-shell-unstable-v1-protocol.c \
+ /home/ez/hyprbar/build/proto_gen/wlr-layer-shell-unstable-v1-protocol.c \
  /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdbool.h \
  /usr/include/stdlib.h /usr/include/bits/libc-header-start.h \

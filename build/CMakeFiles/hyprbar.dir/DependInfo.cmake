@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/ez/Downloads/hyprbar/build/proto_gen/wlr-layer-shell-unstable-v1-protocol.c" "CMakeFiles/hyprbar.dir/proto_gen/wlr-layer-shell-unstable-v1-protocol.c.o" "gcc" "CMakeFiles/hyprbar.dir/proto_gen/wlr-layer-shell-unstable-v1-protocol.c.o.d"
-  "/home/ez/Downloads/hyprbar/src/xdg_stub.c" "CMakeFiles/hyprbar.dir/src/xdg_stub.c.o" "gcc" "CMakeFiles/hyprbar.dir/src/xdg_stub.c.o.d"
-  "/home/ez/Downloads/hyprbar/src/Bar.cpp" "CMakeFiles/hyprbar.dir/src/Bar.cpp.o" "gcc" "CMakeFiles/hyprbar.dir/src/Bar.cpp.o.d"
-  "/home/ez/Downloads/hyprbar/src/HyprIPC.cpp" "CMakeFiles/hyprbar.dir/src/HyprIPC.cpp.o" "gcc" "CMakeFiles/hyprbar.dir/src/HyprIPC.cpp.o.d"
-  "/home/ez/Downloads/hyprbar/src/main.cpp" "CMakeFiles/hyprbar.dir/src/main.cpp.o" "gcc" "CMakeFiles/hyprbar.dir/src/main.cpp.o.d"
-  "/home/ez/Downloads/hyprbar/src/modules/Workspaces.cpp" "CMakeFiles/hyprbar.dir/src/modules/Workspaces.cpp.o" "gcc" "CMakeFiles/hyprbar.dir/src/modules/Workspaces.cpp.o.d"
+  "/home/ez/hyprbar/build/proto_gen/wlr-layer-shell-unstable-v1-protocol.c" "CMakeFiles/hyprbar.dir/proto_gen/wlr-layer-shell-unstable-v1-protocol.c.o" "gcc" "CMakeFiles/hyprbar.dir/proto_gen/wlr-layer-shell-unstable-v1-protocol.c.o.d"
+  "/home/ez/hyprbar/src/xdg_stub.c" "CMakeFiles/hyprbar.dir/src/xdg_stub.c.o" "gcc" "CMakeFiles/hyprbar.dir/src/xdg_stub.c.o.d"
+  "/home/ez/hyprbar/src/Bar.cpp" "CMakeFiles/hyprbar.dir/src/Bar.cpp.o" "gcc" "CMakeFiles/hyprbar.dir/src/Bar.cpp.o.d"
+  "/home/ez/hyprbar/src/HyprIPC.cpp" "CMakeFiles/hyprbar.dir/src/HyprIPC.cpp.o" "gcc" "CMakeFiles/hyprbar.dir/src/HyprIPC.cpp.o.d"
+  "/home/ez/hyprbar/src/main.cpp" "CMakeFiles/hyprbar.dir/src/main.cpp.o" "gcc" "CMakeFiles/hyprbar.dir/src/main.cpp.o.d"
+  "/home/ez/hyprbar/src/modules/Workspaces.cpp" "CMakeFiles/hyprbar.dir/src/modules/Workspaces.cpp.o" "gcc" "CMakeFiles/hyprbar.dir/src/modules/Workspaces.cpp.o.d"
   "" "hyprbar" "gcc" "CMakeFiles/hyprbar.dir/link.d"
   )
 

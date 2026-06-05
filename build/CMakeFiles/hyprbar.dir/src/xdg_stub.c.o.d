@@ -1,6 +1,6 @@
-CMakeFiles/hyprbar.dir/src/xdg_stub.c.o: \
- /home/ez/Downloads/hyprbar/src/xdg_stub.c /usr/include/stdc-predef.h \
- /usr/include/wayland-client.h /usr/include/wayland-client-core.h \
+CMakeFiles/hyprbar.dir/src/xdg_stub.c.o: /home/ez/hyprbar/src/xdg_stub.c \
+ /usr/include/stdc-predef.h /usr/include/wayland-client.h \
+ /usr/include/wayland-client-core.h \
  /usr/lib/gcc/x86_64-pc-linux-gnu/16.1.1/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/features-time64.h \
