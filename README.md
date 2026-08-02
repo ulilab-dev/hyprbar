@@ -116,7 +116,3 @@ Check that `$XDG_RUNTIME_DIR/hypr/<sig>/.socket2.sock` exists and is accessible.
 
 **Font looks wrong**  
 Install `ttf-jetbrains-mono` (Arch) / `fonts-jetbrains-mono` (Ubuntu) or change the font name in the module `.draw()` calls.
-
-## License
-
-MIT
